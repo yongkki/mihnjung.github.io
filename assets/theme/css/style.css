@@ -1812,17 +1812,17 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-arrow-icon {
     display: block; }
     .mbr-arrow-icon::before {
-      content: "\203a";
+      
+      content: "\2193";
       display: inline-block;
       font-family: serif;
       font-size: 32px;
       line-height: 1;
       font-style: normal;
-      left: 4px;
       position: relative;
       top: 6px;
-      -webkit-transform: rotate(90deg);
-      transform: rotate(90deg); }
+      }
+
   .mbr-arrow-floating .mbr-arrow-icon {
     -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
     animation: floating-arrow 1.6s infinite ease-in-out 0s; }
